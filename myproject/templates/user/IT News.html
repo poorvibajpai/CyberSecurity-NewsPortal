@@ -1,0 +1,196 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block Content %}
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card"
+             style="height:250px; width:200px; transition:all 0.5s; margin-bottom:20px; background:#151937;">
+            <div class="card-body">
+                <img src="{% static 'images/img1.jpg' %}" class="card-img-top" style="height:80px; width:170px;"/>
+                <h5 class="card-title" style="color:pink;">India Inc</h5>
+                <p class="card-text text-light" style="text-align:justify; font-size:11px;">
+                    India Inc is hiring from places where they have no offices
+                </p>
+                <a href="#India_Inc" class="btn btn-warning pb-6"
+                   style="height:35px;width:80px; margin-top:12px;">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card-body"
+             style="height:250px; border-radius:3px; width:200px; transition:all 0.5s; margin-bottom:20px;  background:#151937;">
+            <img src="{% static 'images/IT3.jfif' %}" class="card-img-top" style="height:80px; width:170px;"/>
+            <h5 class="card-title" style="color:pink;">Technical Skills</h5>
+            <p class="card-text text-light" style="text-align:justify; font-size:11px;">
+                3 Lakh youth get free technical skills training under DigiSaksham initiative
+            </p>
+            <a href="#Technicall_Skills" class="btn btn-warning pb-6" style="height:35px;width:80px;">View</a>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card-body"
+             style="height:250px; border-radius:3px; width:200px; transition:all 0.5s; margin-bottom:20px;  background:#151937;">
+            <img src="{% static 'images/IT5.webp' %}" class="card-img-top" style="height:80px; width:170px;"/>
+            <h5 class="card-title" style="color:pink;">IIT-Madaras</h5>
+            <p class="card-text text-light" style="text-align:justify; font-size:11px;">
+                IIT-Madras forms consortium to develop space technology
+            </p>
+            <a href="#IIT-Madaras" class="btn btn-warning pb-6" style="height:35px;width:80px; margin-top:15px;">View</a>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card-body"
+             style="height:250px; border-radius:3px; width:200px; transition:all 0.5s; margin-bottom:20px;  background:#151937;">
+            <img src="{% static 'images/IT6.jfif' %}" class="card-img-top" style="height:80px; width:170px;"/>
+            <h5 class="card-title" style="color:pink;">Cloud Telephony</h5>
+            <p class="card-text text-light" style="text-align:justify; font-size:11px;">
+                Cloud telephony startup MyOperator acquires Ziffy to expand in tier-2, 3 cities
+            </p>
+            <a href="#Cloud_Telephony" class="btn btn-warning pb-6" style="height:35px;width:80px;">View</a>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card-body"
+             style="height:250px; border-radius:3px; width:200px; transition:all 0.5s; margin-bottom:20px;  background:#151937;">
+            <img src="{% static 'images/IT7.jfif' %}" class="card-img-top" style="height:80px; width:170px;"/>
+            <h5 class="card-title" style="color:pink;">Zoom Security</h5>
+            <p class="card-text text-light" style="text-align:justify; font-size:11px;">
+                Zoom, Five9 to terminate nearly $15 bln all-stock deal after shareholder vote
+            </p>
+            <a href="#Zoom" class="btn btn-warning pb-6" style="height:35px;width:80px;">View</a>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card-body"
+             style="height:250px; border-radius:3px; width:200px; transition:all 0.5s; margin-bottom:20px;  background:#151937;">
+            <img src="{% static 'images/icon.jfif' %}" class="card-img-top" style="height:80px; width:170px;"/>
+            <h5 class="card-title" style="color:pink;">Optical Sensor</h5>
+            <p class="card-text text-light" style="text-align:justify; font-size:11px;">
+                 Scientists develop robust optical sensor  convert light to digital signals for flexible electronics
+            </p>
+            <a href="#Optical_Sensor" class="btn btn-warning pb-6" style="height:35px;width:80px;">View</a>
+        </div>
+    </div>
+</div>
+<div class="row text-center text-info" style="background:#151937;">
+    <h1 id="India_Inc" style="border-bottom:1px solid white;">
+        India Inc is hiring from places where they have no offices
+    </h1>
+    <i class="mt-4 text-light text-center" style="font-size:20px;">
+        Hiring from locations other than the cities where companies have offices has shot up to 35% from just about 5%
+        in the pre-pandemic times, showed a recent survey by recruitment firm CIEL HR Services, shared exclusively with
+        ET.
+    </i>
+    <center><br><img src="{% static 'images/img1.jpg' %}"
+                     style="height:350px; width:500px; border:2px double purple;"></center>
+    <br><br>
+    <b class="mt-4 text-center" style="font-size:20px; color:yellow;">
+        For companies looking for talent, it no longer matters where a candidate is based as long as they meet the
+        skillset requirements. Hiring is getting location agnostic - companies are increasingly hiring from places where
+        they have no offices.
+
+        "The pandemic has dissolved location constraints. We are taking work to people instead of bringing people to
+        work," said Balaji Kumar, chief human resources officer at Larsen & Toubro Infotech (LTI).
+    </b>
+    <h1  id="Technicall_Skills" style="margin-top:20px; border-bottom:1px solid white;">
+        3 Lakh youth get free technical skills training under DigiSaksham initiative
+    </h1>
+    <i class="mt-4 text-light text-center" style="font-size:20px;">
+        DigiSaksham will help skill, upskill and reskill, keeping employability skills in sync with technology
+        upgradations.
+    </i>
+    <center><br><img src="{% static 'images/IT3.jfif' %}"
+                     style="height:300px; width:500px; border:2px double purple;"></center>
+    <br><br>
+    <b class="mt-4  text-center" style="font-size:20px; color:yellow;">
+        With the fast paced technology upgradation, constant skilling, reskilling and upskilling have become essential
+        for professionals and job seekers these days, said Union Minister for Labour and Employment, Bhupender Yadav. He
+        was speaking at the launch of DigiSaksham initiative - a digital skills programme to enhance the employability
+        of youth by imparting digital skills that are required in an increasingly technology driven era.
+
+        Through this initiative, free of cost training in digital skills including basic skills as well as advanced
+        computing, will be provided to more than three lakh youths in the first year. The jobseekers can access the
+        training through National Career Service (NCS) portal at www.ncs.gov.in.
+        This joint initiative with Microsoft India is an extension of the government’s ongoing programmes to support
+        youth from rural and semi-urban areas. The initiative gives priority to the job-seekers of semi urban areas
+        belonging to disadvantaged communities, including those who have lost their jobs due to Covid-19 pandemic.
+    </b>
+    <h1 id="IIT-Madaras" style="margin-top:20px; border-bottom:1px solid white;">
+        IIT-Madras forms consortium to develop space technology
+    </h1>
+    <i class="mt-4 text-light text-center" style="font-size:20px;">
+        Indian Institute of Technology Madras Pravartak Technologies Foundation, a technology innovation hub from IIT-M,
+        will collaborate with five city startups to develop and commercialise space technologies including those needed
+        for rapid launch capabilities, satellite design.
+    </i>
+    <center><br><img src="{% static 'images/IT5.webp' %}"
+                     style="height:300px; width:500px; border:2px double purple;"></center>
+    <br><br>
+    <b class="mt-4  text-center" style="font-size:20px; color:yellow;">
+        CHENNAI: Indian Institute of Technology Madras Pravartak Technologies Foundation, a technology innovation hub
+        from IIT-M, will collaborate with five city startups to develop and commercialise space technologies including
+        those needed for rapid launch capabilities, satellite design and future generation communication like 6G. The
+        consortium is called Indian Space Technologies and Applications Design Bureau (I-STAC.DB) and will focus on
+        developing next generation technologies.
+
+        IIT Madras Pravartak Technologies Foundation, funded by department of science and technology, and five startups
+        — Dron Vayu Pvt Ltd, Agnikul Cosmos Pvt Ltd, GalaxEye Space Solutions Pvt Ltd, Mindgrove Technologies Pvt Ltd
+        and Resileo Labs LLP are the founding members of the consortium.
+    </b>
+    <h1 id="Cloud_Telephony" style="margin-top:20px; border-bottom:1px solid white;">
+        Cloud telephony startup MyOperator acquires Ziffy to expand in tier-2, 3 cities
+    </h1>
+    <i class="mt-4 text-light text-center" style="font-size:20px;">
+        Cloud-based business telephone system startup MyOperator said it has acquired cloud communications firm, Ziffy
+        to serve Small and Medium Businesses (SMBs) in tier-2 and tier-3 cities in India.
+    </i>
+    <center><br><img src="{% static 'images/IT6.jfif' %}"
+                     style="height:300px; width:500px; border:2px double purple;"></center>
+    <br><br>
+    <b class="mt-4  text-center" style="font-size:20px;  color:yellow;">
+        NEW DELHI: Cloud-based business telephone system startup MyOperator said it has acquired cloud communications
+        firm, Ziffy to serve Small and Medium Businesses (SMBs) in tier-2 and tier-3 cities in India.
+
+        Through this acquisition, the cloud telephony company is aiming to enter Indian markets with access to more than
+        3,500 clients in tier-2 and tier-3 cities, it said in an official statement.
+    </b>
+    <h1 id="Zoom" style="margin-top:20px; border-bottom:1px solid white;">
+        Zoom, Five9 to terminate nearly $15 bln all-stock deal after shareholder vote
+    </h1>
+    <i class="mt-4 text-light text-center" style="font-size:20px;">
+        The termination of what would have been Zoom's biggest-ever acquisition comes after proxy advisory firm
+        Institutional Shareholder Services (ISS) and Glass Lewis earlier this month recommended that Five9 shareholders
+        vote against the deal, citing growth concerns and dual-class shares.
+    </i>
+    <center><br><img src="{% static 'images/IT7.jfif' %}"
+                     style="height:300px; width:500px; border:2px double purple;"></center>
+    <br><br>
+    <b class="mt-4  text-center" style="font-size:20px;color:yellow;">
+
+        Five9 Inc shareholders voted down the call center software firm's $14.7 billion sale to Zoom Video
+        Communications Inc on Thursday, a major blow to Zoom's plan to expand its offerings following its pandemic boom.
+
+        The termination of what would have been Zoom's biggest-ever acquisition comes after proxy advisory firm
+        Institutional Shareholder Services (ISS) and Glass Lewis earlier this month recommended that Five 9 shareholders
+        vote against the deal, citing growth concerns and dual-class shares.
+    </b>
+    <h1 id="Optical_Sensor" style="margin-top:20px; border-bottom:1px solid white;">
+        Capturing light: New ergonomic photodetector for the trillion-sensor era
+    </h1>
+    <i>
+        Scientists develop a compact and robust optical sensor that can convert light to digital signals for use in flexible electronics
+    </i>
+    <center><br><img src="{% static 'images/icon.jfif' %}"
+                     style="height:300px; width:500px; border:2px double purple;"></center>
+    <br><br>
+    <b class="mt-4  text-center" style="font-size:20px;color:yellow;">
+
+        Light-to-frequency conversion circuits (LFCs) are often used to overcome setbacks faced by conventional
+        ultra-low power light sensors. However, use of LFCs can lead to chip area wastage and poor performance of
+        photosensors. Researchers have now developed a highly photosensitive LFC with improved chip area economy, high
+        tuneability, and superior compatibility with flexible electronics. This novel photodetector system can be used
+        in the newly envisioned Internet-of-things (IOT) sensor systems.
+    </b>
+</div>
+
+{% endblock %}

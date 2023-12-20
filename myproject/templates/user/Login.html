@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block Content %}
+<div class="container-fluid">
+    <div class="row form form-control">
+        <form method="post">
+            <h3 class="text-center">Login Form</h3>
+            {% csrf_token %}
+            <p><b class="value">Email Id</b> : <input type="Email" placeholder="Email" name="email" class="form-control form1"></p><br>
+            <p><b class="value">Password</b> : <input type="password" placeholder="alphabets,num,@,#" name="password" class="form-control form1"></p><br>
+            <p><b class="value">Confirm Password</b> : <input type="password" placeholder="alphabets,num,@,#" name="confirmpassword" class="form-control form1"></p><br>
+            <input type="submit" value="Login" class="form-control form1" style="font-size:20px;"><br>
+        </form>
+    </div>
+</div>
+{% endblock %}

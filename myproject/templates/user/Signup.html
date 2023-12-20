@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block Content %}
+<div class="container-fluid">
+    <div class="row form form-control">
+        <form>
+            {% csrf_token %}
+            <p><b class="value">First Name</b> : <input type="text" placeholder="FirstName" name="firstname"
+                                                        class="form-control form"></p><br>
+            <p><b class="value">Last Name</b> : <input type="text" placeholder="LastName" name="lastname"
+                                                       class="form-control form"></p><br>
+            <p><b class="value">Email Id</b> : <input type="Email" placeholder="Email" name="email"
+                                                      class="form-control form"></p><br>
+            <p><b class="value">D.O.B</b> : <input type="date" placeholder="Date Of Birth" name="dob"
+                                                   class="form-control form"></p><br>
+            <p><b class="value">Password</b> : <input type="password" placeholder="alphabets,num,@,#" name="password"
+                                                      class="form-control form"></p><br>
+            <p><b class="value">Confirm Password</b> : <input type="password" placeholder="alphabets,num,@,#"
+                                                              name="confirmpassword" class="form-control form"></p><br>
+            <input type="submit" value="SignUp" class="form-control form" style="font-size:20px;"><br>
+        </form>
+    </div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block Content %}
+<div class="container">
+    <div class="row" style="margin-left:400px;">
+        <form method="post" class="form-control w-50 form1">
+            {% csrf_token %}
+            <h3 class="text-center"><b>Contact Us</b></h3><br>
+            <input type="text" placeholder="Why you want to Contact us ?" class="form-control form1" name="feedback"><br>
+            <input type="number" placeholder="Contact Number" class="form-control form1" name="number"><br>
+            <input type="email" placeholder="Email Id" class="form-control form1" name="email"><br>
+            <input type="text" placeholder="Feedback" class="form-control form1" name="feedback"><br><br>
+            <input type="button" value="Submit" class="form-control btn btn-primary form1">
+        </form>
+    </div>
+</div>
+{% endblock %}

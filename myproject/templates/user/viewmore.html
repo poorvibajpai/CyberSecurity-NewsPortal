@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+<div class="row">
+<div class="h2 bg-success">Details <b>about</b> </div>
+<div class="col-sm-1"></div>
+    {% if data %}
+    {% for x in data %}
+<div class="col-sm-10">
+    {% endfor %}
+    {% endif %}
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="/{{x.newspic}}" class="img-thumbnail w-100"/>
+        </div>
+        <div class="col-sm-8">
+            <div class="h1">{{x.ncategory}}</div>
+            <p class="btn btn-dark">{{x.headlines}}</p>
+            <b>{{x.subject}}</b>
+            <p>Description</p>
+            <i class="btn btn-outline-primary">Posted Date : </i>
+            <i class="btn btn-outline-primary">City : Varanasi</i>
+        </div>
+    </div>
+</div>
+<div class="col-sm-1"></div>
+</div>
+{% block Content%}
+{% endblock %}
